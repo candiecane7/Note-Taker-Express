@@ -1,10 +1,30 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    },
-    {
-        "title": "tester 2",
-        "text": "what the hell why wont this work"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "tester 2",
+    "text": "what the hell why wont this work"
+  },
+  {
+    "title": "this is a note",
+    "text": "this is a note i want to save",
+    "id": "km47990cl2wgjsek"
+  },
+  {
+    "title": "this is a note",
+    "text": "this is a note i want to save",
+    "id": "km47990cl2wgjwl7"
+  },
+  {
+    "title": "this is a note",
+    "text": "this is a note i want to save",
+    "id": "km47990cl2wgk4nt"
+  },
+  {
+    "title": "this is a note",
+    "text": "this is a note i want to save",
+    "id": "km47990cl2wgk5ax"
+  }
 ]
