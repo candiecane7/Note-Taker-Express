@@ -1,5 +1,13 @@
 # Note-Taker-Express
 
+## Purpose
+Create the get/post/delete routes using express.js for a note-taker app
+
+## Collaborators
+[link](https://bobbyhadz.com/blog/javascript-array-find-index-of-object-by-property) This blog helped me figure out how to get the index of an object in an array by using the id.
+[link](https://www.tabnine.com/code/javascript/functions/express/Router/delete) Found how to write a delete request through this link.
+[UNIQID](https://www.npmjs.com/package/uniqid) npm package I used to create a unique id for each note.
+
 ## User Story
 AS A small business owner
 I WANT to be able to write and save notes
@@ -20,7 +28,8 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-## Collaborators
-https://bobbyhadz.com/blog/javascript-array-find-index-of-object-by-property
-https://www.tabnine.com/code/javascript/functions/express/Router/delete
-https://www.npmjs.com/package/uniqid
+## Built With
+Javascript, HTML, CSS, Express.js, UNIQID 
+
+## Screenshot
+<img src="./assets/images/screenshot.png">
