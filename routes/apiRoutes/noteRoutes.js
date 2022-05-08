@@ -4,10 +4,12 @@ const fs = require("fs");
 const uniqid = require('uniqid');
 const path = require('path');
 
+//route to get notes
 router.get('/notes', (req, res) => {
     res.json(notes);
 });
 
+//route to add a new note
 router.post('/notes', (req, res) => {
     req.body.id = uniqid();
     notes.push(req.body);
@@ -17,6 +19,8 @@ router.post('/notes', (req, res) => {
     res.json(notes);
 });
 
+
+//route to delete a note based on id
 router.delete('/notes/:id', (req, res) => {
     noteIndex = notes.findIndex(note =>{
         return note.id === req.params.id
@@ -27,5 +31,6 @@ router.delete('/notes/:id', (req, res) => {
         JSON.stringify(notes, null, 2));
     res.json(notes);
 });
+
 
 module.exports = router;
